@@ -3,7 +3,7 @@ package org.generation.italy.eventi;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class Eventi {
+public class Evento {
 	
 	
 	
@@ -16,7 +16,7 @@ public class Eventi {
 	
 	
 	//costruttore
-	public Eventi(String titolo, LocalDate data, int postiTotali) throws Exception{
+	public Evento(String titolo, LocalDate data, int postiTotali) throws Exception{
 		
 		if(data.isAfter(LocalDate.now())) {
 			this.data = data;

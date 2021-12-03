@@ -40,7 +40,7 @@ public class Main {
 		
 		try {
 			
-			Eventi evento = new Eventi(titolo, data, postiTotali);
+			Evento evento = new Evento(titolo, data, postiTotali);
 			
 			String sceltaUtente;
 			boolean esci = false;
